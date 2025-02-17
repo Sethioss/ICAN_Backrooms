@@ -95,7 +95,17 @@ void ASulkerCharacter::EditSphereDebug()
 		TextInfos.Add(Act);
 		
 		DrawDebugSphere(GetWorld(), PathPoints[i], 30.0f, 48, FColor::Red, true, -1.0f, 0, 1.0f);
-		DrawDebugLine(GetWorld(), PathPoints[i], PathPoints[(i+1) % PathPoints.Num()], (i == 0 ? FColor::Orange : FColor::Red), true, -1, 0, 2.0f);
+	}
+	if(PathPoints.Num() == 2)
+	{
+		DrawDebugLine(GetWorld(), PathPoints[0], PathPoints[1],FColor::Orange, true, -1, 0, 2.0f);
+	}
+	else
+	{
+		for(int i = 0; i < PathPoints.Num(); i++)
+		{
+			DrawDebugLine(GetWorld(), PathPoints[i], PathPoints[(i+1) % PathPoints.Num()], (i == 0 ? FColor::Orange : FColor::Red), true, -1, 0, 2.0f);
+		}
 	}
 }
 #endif
