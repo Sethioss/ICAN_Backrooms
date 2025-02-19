@@ -69,22 +69,34 @@ void ASulkerCharacter::ChangedSelection(UObject* NewSelection)
 		// Respond to this actor being deselected
 		bSelectedInEditor = false;
 		FlushPersistentDebugLines(GetWorld());
+#if 1
 		for(ATextRenderActor* TextRenderActor : TextInfos)
 		{
-			TextRenderActor->Destroy();
+			if(TextRenderActor)
+			{
+				TextRenderActor->Destroy();
+			}
 		}
+#endif
 	}
 }
 
 void ASulkerCharacter::EditSphereDebug()
 {
 	FlushPersistentDebugLines(GetWorld());
+#if 1
 	for(ATextRenderActor* TextRenderActor : TextInfos)
 	{
-		TextRenderActor->Destroy();
+		if(TextRenderActor)
+		{
+			TextRenderActor->Destroy();
+		}
 	}
+#endif
+	
 	for(int i = 0; i < PathPoints.Num(); i++)
 	{
+#if 1
 		FVector Location(PathPoints[i].X, PathPoints[i].Y, PathPoints[i].Z + 25.0f);
 		FRotator Rotation(0.0f, 0.0f, 0.0f);
 		FActorSpawnParameters SpawnInfo;
@@ -93,8 +105,8 @@ void ASulkerCharacter::EditSphereDebug()
 		Act->GetTextRender()->SetText(FText::AsNumber(i));
 		Act->GetTextRender()->SetWorldSize(54.0f);
 		TextInfos.Add(Act);
-		
-		DrawDebugSphere(GetWorld(), PathPoints[i], 30.0f, 48, FColor::Red, true, -1.0f, 0, 1.0f);
+#endif
+		DrawDebugSphere(GetWorld(), PathPoints[i], 30.0f, 48, (i == 0 ? FColor::Orange : FColor::Red), true, -1.0f, 0, 1.0f);
 	}
 	if(PathPoints.Num() == 2)
 	{

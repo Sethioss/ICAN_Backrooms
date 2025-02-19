@@ -20,6 +20,7 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TObjectPtr<class UBehaviorTreeComponent> BehaviorTree;
 
+	UPROPERTY(Transient)
 	TArray<ATextRenderActor*> TextInfos;
 
 protected:
