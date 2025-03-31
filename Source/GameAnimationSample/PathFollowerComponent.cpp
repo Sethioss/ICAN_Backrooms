@@ -33,6 +33,7 @@ void UPathFollowerComponent::BeginPlay()
 	
 }
 
+#if WITH_EDITOR
 void UPathFollowerComponent::ChangedSelection(UObject* NewSelection)
 {
 	TArray<UPathFollowerComponent*> SelectedPathComps;
@@ -74,7 +75,6 @@ void UPathFollowerComponent::ChangedSelection(UObject* NewSelection)
 	}
 }
 
-#if WITH_EDITOR
 void UPathFollowerComponent::PostEditChangeProperty(struct FPropertyChangedEvent& PropertyChangedEvent)
 {
 	Super::PostEditChangeProperty(PropertyChangedEvent);
