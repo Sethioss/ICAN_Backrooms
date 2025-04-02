@@ -1,0 +1,128 @@
+%!Adobe-FontList 1.24
+%Locale:0x40c
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AcuminVariableConcept
+FamilyName:Acumin Variable Concept
+StyleName:Default
+FullName:Acumin Variable Concept Default
+MenuName:Acumin Variable Concept
+FamilyPrefix:AcuminConcept
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Loic_user\GitHub\ICAN_Backrooms\GDD\Dossier GDD_Backroom_V1\Document fonts\AcuminVariableConcept.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasCOLR:no
+VariableFontType:CFF2VariableFont
+FileLength:1029036
+FileModTime:1712310583
+WeightClass:275
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Acumin Variable Concept
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+FullName:Minion Pro
+MenuName:Minion Pro
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Loic_user\GitHub\ICAN_Backrooms\GDD\Dossier GDD_Backroom_V1\Document fonts\MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:218640
+FileModTime:1712310585
+WeightClass:400
+WidthClass:5
+AngleClass:0
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:CourierNewPSMT
+FamilyName:Courier New
+StyleName:Regular
+FullName:Courier New
+MenuName:Courier New
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Loic_user\GitHub\ICAN_Backrooms\GDD\Dossier GDD_Backroom_V1\Document fonts\cour.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:806504
+FileModTime:1575713306
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Courier New
+NameArray:0,Win,1,Courier New
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:CourierNewPS-BoldMT
+FamilyName:Courier New
+StyleName:Bold
+FullName:Courier New Bold
+MenuName:Courier New
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\Loic_user\GitHub\ICAN_Backrooms\GDD\Dossier GDD_Backroom_V1\Document fonts\courbd.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:805244
+FileModTime:1575713306
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Courier New Bold
+NameArray:0,Win,1,Courier New
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:CourierNewPS-ItalicMT
+FamilyName:Courier New
+StyleName:Italic
+FullName:Courier New Italic
+MenuName:Courier New
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Loic_user\GitHub\ICAN_Backrooms\GDD\Dossier GDD_Backroom_V1\Document fonts\couri.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:667440
+FileModTime:1575713306
+WeightClass:400
+WidthClass:5
+AngleClass:1
+NameArray:0,Mac,4,Courier New Italic
+NameArray:0,Win,1,Courier New
+%EndFont
+
