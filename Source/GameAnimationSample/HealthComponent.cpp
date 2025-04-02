@@ -35,9 +35,9 @@ void UHealthComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActo
 
 void UHealthComponent::RemoveHealth(int Damage)
 {
+	CurrentHealth -= Damage;
 	OnHealthLost.Broadcast(CurrentHealth);
 
-	CurrentHealth -= Damage;
 	if(CurrentHealth <= 0)
 	{
 		Die();

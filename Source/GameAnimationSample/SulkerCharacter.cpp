@@ -2,8 +2,10 @@
 
 
 #include "SulkerCharacter.h"
+#if WITH_EDITOR
 #include "Engine/Selection.h"
 #include "Editor.h"
+#endif
 #include "Components/TextRenderComponent.h"
 #include "Util/ColorConstants.h"
 
@@ -30,6 +32,7 @@ void ASulkerCharacter::BeginPlay()
 	FlushPersistentDebugLines(GetWorld());
 }
 
+#if WITH_EDITOR
 void ASulkerCharacter::PostEditChangeProperty(struct FPropertyChangedEvent& PropertyChangedEvent)
 {
 	Super::PostEditChangeProperty(PropertyChangedEvent);
@@ -37,7 +40,6 @@ void ASulkerCharacter::PostEditChangeProperty(struct FPropertyChangedEvent& Prop
 	EditSphereDebug();
 }
 
-#if WITH_EDITOR
 void ASulkerCharacter::ChangedSelection(UObject* NewSelection)
 {
 	TArray<ASulkerCharacter*> SelectedSulkers;
