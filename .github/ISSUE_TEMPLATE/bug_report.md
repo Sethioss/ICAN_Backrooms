@@ -1,7 +1,7 @@
 ---
 name: Bug report
 about: Create a report to help us improve
-title: Issue report default title
+title: "[Visual][Audio][UI][Editor][Gameplay]Issue report default title"
 labels: Bug, Issue
 assignees: ''
 
