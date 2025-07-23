@@ -66,6 +66,10 @@
 		{
 			"Name": "NetworkPrediction",
 			"Enabled": true
+		},
+		{
+			"Name": "MovieRenderPipeline",
+			"Enabled": true
 		}
 	],
 	"EpicSampleNameHash": "1673045636"
